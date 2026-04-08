@@ -42,7 +42,7 @@ const fmtDD = d => { const dd = String(d.getDate()).padStart(2, "0"), mm = Strin
 // ============================================================
 // IMPORTANT: Replace this URL with your Apps Script Web App URL
 // ============================================================
-const APPS_SCRIPT_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwV-kmj0c1sqj-fMesdALQND5Y9jUZHkT5MPBBRfgo1MCESa66MAAp8RHc6FTtiUn13/exec";
 
 export default function ReminderPage() {
   const now = new Date();
